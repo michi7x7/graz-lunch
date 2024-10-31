@@ -72,7 +72,8 @@ def get_mangolds_link() -> str:
 def get_mangolds() -> Message:
     from textwrap import dedent
     try:
-        href = get_mangolds_link()
+        # get_mangolds_link()
+        href = "https://www.mangolds.com/restaurant-cafe/mangolds-griesgasse/"
         if href is None:
             raise RuntimeError("link not found")
 
